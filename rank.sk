@@ -1,0 +1,22 @@
+# Rang-Prefix im Chat
+on chat:
+    if {rank::%player%} is "OWNER":
+        set chat format to "&4[OWNER] &c%player%&7: %message%"
+    else if {rank::%player%} is "ADMIN":
+        set chat format to "&c[ADMIN] &f%player%&7: %message%"
+    else if {rank::%player%} is "VIP":
+        set chat format to "&a[VIP] &e%player%&7: %message%"
+    else if {rank::%player%} is "CONTENT":
+        set chat format to "&9[CREATOR] &b%player%&7: %message%"
+    else:
+        set chat format to "&7[USER] %player%&7: %message%"
+
+# Rang-Befehle (nur für Admins)
+command /setrank <player> <text>:
+    permission: op
+    trigger:
+        if arg-2 is not in {"OWNER","ADMIN","VIP","CONTENT","USER"}:
+            send "&cNutze: OWNER, ADMIN, VIP, CONTENT, USER" to player
+            stop
+        set {rank::%arg-1%} to arg-2
+        send "&aRang von &e%arg-1% &aauf &6%arg-2% &agesetzt!" to player
