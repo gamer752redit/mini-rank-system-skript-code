@@ -1,37 +1,116 @@
-1. lade dir das skript runter
-    - das skript findest du auch hier im github
+✅ Installation
 
-2. lade dir das plugin "Skript" herunter
-    - https://www.spigotmc.org/resources/skript.114544/
+📥 Skript herunterladen
 
-3. starte deinen server
+Das rank.sk findest du auf GitHub
+(Link in der Beschreibung)
 
-4. zihe das heruntergeladene skript (join skript.sk) in das plugin
-    -plugins > Skript > scripts > rank.sk
+⚙️ Skript-Plugin installieren
 
-5. reloade dein Skript damit du direkt loslegen kannst!
-    - /skript reload monster rank.sk
+Lade Skript herunter
 
-6. nutze /rank <playername> OWNER/ADMIN/VIP/CREATOR/USER
+➡️ Lege die JAR in den plugins-Ordner
 
-   ⚠️ BITTE GEBE DAS SKRUPT NICHT ALS DEINS AUS ⚠️
+🚀 Server starten
 
+Warte bis alle Plugins geladen sind
 
+📂 Skript einfügen
 
-1. Download the script
-- You can also find the script here on GitHub
+markdown
+plugins/
+└── Skript/
+    └── scripts/
+        └── rank.sk  ← Hier einfügen
+🔄 Skript neu laden
 
-2. Download the "Script" plugin
-- https://www.spigotmc.org/resources/skript.114544/
+bash
+/skript reload rank.sk
+🎮 Fertig! Nutze:
 
-3. Start your server
+bash
+/rank <Spieler> OWNER|ADMIN|VIP|CREATOR|USER
+⚠️ Wichtige Hinweise
 
-4. Drag the downloaded script (join skript.sk) into the plugin
-- plugins > Skript > scripts > rank.sk
+🔄 Bei Änderungen immer neu laden
 
-5. Reload your script so you can get started right away!
-- /skript reload monster rank.sk
+❌ Nicht als eigenes Werk veröffentlichen
 
-6. Use /rank <playername> OWNER/ADMIN/VIP/CREATOR/USER
+📝 Credit an Original-Autor lassen
 
-⚠️ PLEASE DO NOT PASS THE SCRUPT AS YOURS ⚠️
+💡 Tipps
+
+Teste erst auf Testserver
+
+Backup deiner Daten erstellen
+
+Bei Fehlern: skript info rank.sk
+
+🇬🇧 English Version
+
+✅ Installation
+
+📥 Download the script
+
+Get rank.sk from GitHub
+(Link in description)
+
+⚙️ Install Skript plugin
+
+Download Skript
+
+➡️ Place JAR in plugins folder
+
+🚀 Start your server
+
+Wait for full startup
+
+📂 Add the script
+
+markdown
+plugins/
+└── Skript/
+    └── scripts/
+        └── rank.sk  ← Paste here
+🔄 Reload script
+
+bash
+/skript reload rank.sk
+🎮 Ready! Use:
+
+bash
+/rank <player> OWNER|ADMIN|VIP|CREATOR|USER
+⚠️ Important Notes
+
+🔄 Reload after changes
+
+❌ Don't redistribute as your own
+
+📝 Give credit to original author
+
+💡 Pro Tips
+
+Test on dev server first
+
+Always backup data
+
+Debug with skript info rank.sk
+
+✨ Viel Erfolg mit deinem Rangsystem!
+(Good luck with your rank system!)
+
+Design-Updates:
+
+✅ Klare Schritt-für-Schritt-Anleitung
+
+📂 Verzeichnisbaum-Darstellung
+
+🎮 Befehle in Code-Blöcken
+
+💡 Tipps als abgesetzte Box
+
+🌐 Konsistente zweisprachige Struktur
+
+✨ Visuelle Trennung der Abschnitte
+
+🔄 Reload-Hinweise hervorgehoben
